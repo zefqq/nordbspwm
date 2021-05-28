@@ -58,7 +58,7 @@ font-3 = FontAwesome:pixelsize=10;0
 
 modules-left = test bspwm
 modules-center = xwindow
-modules-right = memory cpu battery temperature date
+modules-right = cpu memory battery temperature date
 
 tray-position = right
 tray-padding = 10
@@ -221,7 +221,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %percentage_used%%
@@ -274,7 +274,7 @@ date-alt = " %Y-%m-%d"
 time = %I:%M %p
 time-alt = %H:%M:%S
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
@@ -356,15 +356,15 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 﫵
+animation-charging-1 = 﫵
+animation-charging-2 = 﫵
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 =  
-animation-discharging-2 = 
+animation-discharging-0 = 﫵
+animation-discharging-1 = 﫵 
+animation-discharging-2 = 﫵
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -382,9 +382,9 @@ label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
